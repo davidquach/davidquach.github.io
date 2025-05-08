@@ -228,6 +228,31 @@ main {
   color: inherit;
 }
 
+.experience {
+  margin-top: 2rem;
+}
+
+.job {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.company-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.job-details h3, .job-details h4 {
+  margin: 0;
+}
+
+.job-details p {
+  margin: 0.25rem 0;
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
